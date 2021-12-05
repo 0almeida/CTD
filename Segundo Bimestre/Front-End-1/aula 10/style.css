@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0f0f0f;
+}
+div{
+ margin-top: 100px;
+
+}
+label, input{
+    display: block;
+}
+
+label {
+    color: #ffffff;
+}
+
+input {
+    padding: 3px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+form{
+    margin: top 40px; ;
+    padding: 24px;
+    background-color: #0c81f5;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+

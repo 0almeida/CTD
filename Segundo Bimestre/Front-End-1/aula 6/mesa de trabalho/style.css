@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap");
+
+body {
+  background-color: #131313;
+}
+
+h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  
+}
+.media-picture {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-e8c1503388ef86f8579eb6c56bc72ee2);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+ margin: -23px;
+ border-radius: 5px;
+}
+
+.review-score {
+  padding: 12px;
+  background-color: #e6bd09;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-radius: 15px;
+}
+h2 {
+  padding-top: 20px;
+  color: steelblue;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #bdbdbd;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: yellow;
+}

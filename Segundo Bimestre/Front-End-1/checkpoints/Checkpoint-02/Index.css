@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-image: url(https://www.teahub.io/photos/full/284-2845037_baixar-wallpaper-osaka-japo-cidade-noite-papis-osaka.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+     
+
+}
+
+form {
+    padding: 15px;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://www.bceleva.com.br/wp-content/uploads/2020/04/wallpaper-azul-papel-de-parede-azul-fundo-5.jpg);
+}
+
+.titulo {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: -4px 4px 4px #000000;
+}
+
+legend {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+label {
+    margin-right: 15px;
+    margin-left: 3px;
+}
+
+div {
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 25px;
+    margin-right: 20px;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    background-color: blue;
+    border-radius: 12px;
+}
+
+button:hover {
+    transform: scale(1.09);
+    transition: 0.2s;
+}
+

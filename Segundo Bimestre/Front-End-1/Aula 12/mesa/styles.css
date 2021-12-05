@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/93/46/31/cinemark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    height: 1200px;
+}
+
+for {
+    font-size: 30px;
+}
+
+div {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+legend {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #ffe600;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(253, 236, 1);
+    color: #fc0000; 
+}
+
+input [type = "date"] :disabled {
+    color: #f5f1f5;
+;
+}
+
+h3 {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #d8bfd8;
+}
+
+.style-checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+label:nth-child(even) {
+    background-color: #ffffff;
+    
+}
+
+input {
+    background-color: #f5f1f5;
+    
+}
+
+input:focus {
+    background-color: #ff0000;
+    transition: 2s;
+}
+
+input:hover {
+    background-color: #ffffff;
+    transition: 3s;
+}
+
+p {
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #f5f1f5;
+   text-align: center;
+   font-size: large;
+}
+
+p::first-letter {
+    font-size: 32px;
+}

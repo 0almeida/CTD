@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    padding: 60px;
+    max-width: 100%;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    transition: 2s;
+}
+
+@keyframes percorer {
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+.logo:hover {
+    transform: translate(500px);
+    animation-name: percorer;
+    animation-duration: 2s;
+
+}
+
+.lambo:hover {
+rotate: 90deg;
+}
+
+.button {
+    background-color: #00000e;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px; 
+    border: 0;
+    border-radius: 12px;
+    transition-duration: 2s;
+}
+.button:hover {
+    background-color: #9292f5;
+}
