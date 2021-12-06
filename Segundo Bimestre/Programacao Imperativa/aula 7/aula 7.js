@@ -35,6 +35,6 @@ console.log(!(x2 == "3" || x2 === y2) && !(y2 !== 8 && x2 <= y2));
 
 let str = "";
 let msg = "haha!";
-let msg = "false";
+let bnd = "false";
 
-console.log(!((str || msg) && eBonito));
+console.log(!((str || msg) && bnd));
