@@ -6,7 +6,28 @@
 header {
   width: 1440px;
   height: 80px;
+ background-color: rgb(255, 255, 255);
 }
+
+#header-Nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.justify-content-end {
+  justify-content: right;
+  width: 100%;
+
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+  list-style-type: none;
+  font-family: "Bebas Neue", sans sarif;
+  white-space: nowrap;
+  padding-left: 1px;
+}
+
 main {
   width: 1440px;
   height: 1023px;
@@ -25,7 +46,6 @@ form {
   margin-top: -57%;
   margin-left: 32%;
   position: relative;
-
 }
 #Dados {
   display: block;
@@ -66,10 +86,10 @@ input {
   border-radius: 10px;
   font-size: 20px;
 }
-.button:hover{
-background-color:rgb(57, 219, 122);
+.button:hover {
+  background-color: rgb(57, 219, 122);
   transform: scale(1.09);
- transition: 0.2s;
+  transition: 0.2s;
 }
 a {
   text-decoration: none;
