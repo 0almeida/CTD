@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,9 +20,12 @@
   </head>
 
   <body>
-    <!--------------------------------------------------->
+    <!-- Header----------------------------------- -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.svg" alt="" />
+        </a>
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -56,142 +65,183 @@
         </div>
       </nav>
     </header>
-    <!--------------------------------------------------->
+    <!-- Section----------------------------------- -->
+    <section>
+      <div class="banner">
+        <div class="cx01">
+          <div class="cx02">
+            <h1 class="txt01">DH Flix</h1>
+            <h2 class="txt02">
+              Confira a maior coletânea de filmes que a DH tem a te oferecer!
+            </h2>
+          </div>
+        </div>
+
+        <a class="btn btn-inicial" href="#main" role="button">Explorar</a>
+      </div>
+    </section>
+    <!-- Main----------------------------------- -->
     <main>
-      <section class="banner">
-        <a class="btn btn-inicial" href="#aside" role="button">Explorar</a>
-      </section>
+      <div class="filmes">
+        <h1 class="main-titulo" id="main">Catalogo de Filmes</h1>
 
-      <h1 class="main-titulo" id="main">Catalogo de Filmes</h1>
-
-      <section class="row">
-        <div class="col-12 col-md-4">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://entreterse.com.br/wp-content/uploads/2019/09/Homem-de-Ferro-2008-r.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Homem de Ferro</h5>
-              <p class="card-text">
-                Tony Stark é um industrial bilionário e inventor brilhante que
-                realiza testes bélicos no exterior, mas é sequestrado por...
-              </p>
-              <div class="d-grid gap-2">
-                <a class="btn btn-primary" href="Iron_man.html" role="button"
-                  >Entrar</a
-                >
+        <section class="row" id="catalogo">
+          <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://entreterse.com.br/wp-content/uploads/2019/09/Homem-de-Ferro-2008-r.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Homem de Ferro</h5>
+                <p class="card-text">
+                  Tony Stark é um industrial bilionário e inventor brilhante que
+                  realiza testes bélicos no exterior, mas é sequestrado por...
+                </p>
+                <div class="d-grid gap-2">
+                  <a
+                    class="btn btn-primary"
+                    href="Iron_man.html"
+                    role="button"
+                    >Entrar</a
+                  >
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-12 col-md-4">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://cdn.tlc-massive.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=85&ImageId=%27169429.jpeg%27&ImageUrl=%27169429.jpeg%27&EntityType=%27Item%27&EntityId=%279763%27&Width=1920&Height=1080&device=web_browser&subscriptions=Anonymous"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">O Incrivel Hulk</h5>
-              <p class="card-text">
-                O cientista Bruce Banner se esconde no Brasil enquanto busca
-                desesperadamente a cura da mutação que o transforma em um...
-              </p>
-              <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button">Entrar</button>
+          <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://cdn.tlc-massive.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=85&ImageId=%27169429.jpeg%27&ImageUrl=%27169429.jpeg%27&EntityType=%27Item%27&EntityId=%279763%27&Width=1920&Height=1080&device=web_browser&subscriptions=Anonymous"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">O Incrivel Hulk</h5>
+                <p class="card-text">
+                  O cientista Bruce Banner se esconde no Brasil enquanto busca
+                  desesperadamente a cura da mutação que o transforma em um...
+                </p>
+                <div class="d-grid gap-3">
+                  <a
+                    class="btn btn-primary"
+                    href="Hulk.html"
+                    role="button"
+                    >Entrar</a
+                  >
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-12 col-md-4">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://exame.com/wp-content/uploads/2018/02/black-panther-1280x720-cast-marvel-comics-2018-4k-10763-1.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Pantera Negra</h5>
-              <p class="card-text">
-                Conheça a história de T'Challa, príncipe do reino de Wakanda,
-                que perde o seu pai e viaja para os Estados Unidos, onde tem...
-              </p>
-              <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button">Entrar</button>
+          <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://exame.com/wp-content/uploads/2018/02/black-panther-1280x720-cast-marvel-comics-2018-4k-10763-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pantera Negra</h5>
+                <p class="card-text">
+                  Conheça a história de T'Challa, príncipe do reino de Wakanda,
+                  que perde o seu pai e viaja para os Estados Unidos, onde
+                  tem...
+                </p>
+                <div class="d-grid gap-4">
+                  <a
+                    class="btn btn-primary"
+                    href="Black_Panther.html"
+                    role="button"
+                    >Entrar</a
+                  >
+              </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-12 col-md-4">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://3.bp.blogspot.com/-AcMQMsFt2Ug/VOn3e7CVRPI/AAAAAAAAEes/ijojrMqk-SM/s1600/captain%2Bamerica%2B2.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Capitão América</h5>
-              <p class="card-text">
-                Steve Rogers é um jovem que participa de experiências visando a
-                criação do supersoldado americano. Quando os oficiais militares
-                não imaginavam...
-              </p>
-              <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button">Entrar</button>
+          <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://3.bp.blogspot.com/-AcMQMsFt2Ug/VOn3e7CVRPI/AAAAAAAAEes/ijojrMqk-SM/s1600/captain%2Bamerica%2B2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Capitão América</h5>
+                <p class="card-text">
+                  Steve Rogers é um jovem que participa de experiências visando
+                  a criação do supersoldado americano. Quando os oficiais
+                  militares não imaginavam...
+                </p>
+                 <div class="d-grid gap-5">
+                  <a
+                    class="btn btn-primary"
+                    href="Captain america.html"
+                    role="button"
+                    >Entrar</a
+                  >
+              </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-12 col-md-4">
-          <div class="card" style="width: 18rem">
-            <img
-              src="http://www.fapcom.edu.br/wp-content/uploads/2015/08/5u5u5.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Homem Formiga</h5>
-              <p class="card-text">
-                Dr. Hank Pym transforma um talentoso ladrão no herói
-                Homem-Formiga. Ele quer impedir que seu antigo pupilo consiga
-                replicar a fórmula da roupa que dá o poder do encolhimento...
-              </p>
-              <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button">Entrar</button>
+          <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="http://www.fapcom.edu.br/wp-content/uploads/2015/08/5u5u5.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Homem Formiga</h5>
+                <p class="card-text">
+                  Dr. Hank Pym transforma um talentoso ladrão no herói
+                  Homem-Formiga. Ele quer impedir que seu antigo pupilo consiga
+                  replicar a fórmula da roupa que dá o poder do encolhimento...
+                </p>
+                     <div class="d-grid gap-6">
+                  <a
+                    class="btn btn-primary"
+                    href="Ant-Man.html"
+                    role="button"
+                    >Entrar</a
+                  >
+              </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-12 col-md-4">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/06/film-review-thor-2011.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Thor</h5>
-              <p class="card-text">
-                Como filho de Odin, rei dos deuses nórdicos, Thor logo herdará o
-                trono de Asgard de seu idoso pai. Porém, no dia de sua coroação,
-                Thor reage com brutalidade quando os inimigos...
-              </p>
-              <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button">Entrar</button>
+          <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/06/film-review-thor-2011.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Thor</h5>
+                <p class="card-text">
+                  Como filho de Odin, rei dos deuses nórdicos, Thor logo herdará
+                  o trono de Asgard de seu idoso pai. Porém, no dia de sua
+                  coroação, Thor reage com brutalidade quando os inimigos...
+                </p>
+                      <div class="d-grid gap-7">
+                  <a
+                    class="btn btn-primary"
+                    href="Thor.html"
+                    role="button"
+                    >Entrar</a
+                  >
+              </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
-    <!--------------------------------------------------->
+    <!-- Footer----------------------------------- -->
     <footer id="footer">
       <div class="container">
         <section class="row" id="footer">
@@ -262,7 +312,7 @@
       </div>
       <h1 class="rodape">Checkpoint 3 desenvolvido em 2021</h1>
     </footer>
-    <!--------------------------------------------------->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

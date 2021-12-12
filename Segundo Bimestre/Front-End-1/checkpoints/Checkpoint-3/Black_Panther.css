@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Bebas Neue", sans-serif;
+}
 header {
   width: 100%;
   height: 40px;
@@ -14,7 +23,6 @@ header {
 }
 /* ----------------------------------------------- */
 
-
 .conteudo {
   padding: 10px;
 }
@@ -30,7 +38,7 @@ header {
   color: blue;
 }
 .banner {
-width: 100%;
+  width: 100%;
 }
 iframe {
   width: 1280px;
