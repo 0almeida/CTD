@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  font-family: "Bebas Neue", sans-serif;
-}
+/*Header---------------------------------------*/
 header {
   width: 100%;
   height: 40px;
@@ -14,33 +6,39 @@ header {
   position: sticky;
   top: 0;
 }
+
 .nav-link {
   color: black;
 }
+
 .home {
   color: #ff0000;
   font-weight: bold;
 }
-/* ----------------------------------------------- */
 
-
+/*Main---------------------------------------*/
 .conteudo {
   padding: 10px;
 }
+
 .titulo01 {
   font-weight: bold;
 }
+
 .infor {
   font-weight: bold;
   font-size: 25px;
 }
+
 .sub {
   font-size: 15px;
   color: blue;
 }
+
 .banner {
 width: 100%;
 }
+
 iframe {
   width: 1280px;
   height: 720px;
@@ -61,37 +59,43 @@ div.vid > iframe {
   height: 90%;
   transform: translate(-50%, -50%);
 }
-/* ----------------------------------------------- */
 
+/*Footer---------------------------------------*/
 footer {
   width: 100%;
   height: 200px;
   background-color: #000000;
   color: white;
 }
+
 .col {
   margin-top: 30px;
 }
+
 .membro1,
 .membro2,
 .membro3 {
   font-size: 20px;
 }
+
 .sub1,
 .sub2,
 .sub3 {
   font-size: 12px;
 }
+
 .icon-linkedin,
 .icon-github {
   width: 15px;
 }
+
 .indice1 {
   text-align: left;
 }
 .indice2 {
   text-align: center;
 }
+
 .indice3 {
   text-align: right;
 }

@@ -9,20 +9,14 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" href="img/Thor.ico" type="image/x-icon" />
-    <title>Thor</title>
-    <link rel="stylesheet" href="Thor.css" />
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css" />
   </head>
   <body>
+<!-- Header----------------------------------- -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo.svg" alt="" />
-        </a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
           <button
             class="navbar-toggler"
             type="button"
@@ -41,73 +35,30 @@
                   >Home</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Sinopse"
-                  >Sinopse</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#footer"
-                  >Sobre nós</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Login.html"
-                  >Login</a
-                >
-              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
+<!-- Main----------------------------------- -->
     <main>
-      <div>
-        <img
-          src="https://i1.wp.com/becoliterario.com/wp-content/uploads/2017/10/thor.jpg?fit=1920%2C1200&ssl=1"
-          alt=""
-          class="banner"
-        />
-      </div>
-      <div class="conteudo" id="Sinopse">
-        <h1 class="titulo01">Sinopse do Filme</h1>
-        <p>
-          Como filho de Odin, rei dos deuses nórdicos, Thor logo herdará o trono
-          de Asgard de seu idoso pai. Porém, no dia de sua coroação, Thor reage
-          com brutalidade quando os inimigos dos deuses entram no palácio
-          violando o tratado. Como punição, Odin manda Thor para a Terra.
-          Enquanto seu irmão Loki conspira em Asgard, Thor, agora sem seus
-          poderes, enfrenta sua maior ameaça.
-        </p>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3">
-            <h1 class="infor">Diretor</h1>
-            <h2 class="sub">Kenneth Branagh</h2>
-          </div>
-          <div class="col-sm-9">
-            <h1 class="infor">Bilheteria</h1>
-            <h2 class="sub">449,3 milhões USD</h2>
-          </div>
-          <h1>Trailer</h1>
-
-          <div class="vid">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/JOddp-nlNvQ"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
+      <div class="login">
+         <div>
+            <img class="img" src="img/logo.svg" alt="">
+         </div>
+         <br>
+         <div>
+          <input class="campos" type="text" placeholder="Digite seu email">
         </div>
+          <br>
+          <div>
+          <input class="campos" type="password" placeholder="Digite sua senha">
+        </div>
+          <br>
+          <button class="btn">Entrar</button>
       </div>
     </main>
-
+<!-- Footer----------------------------------- -->
     <footer id="footer">
       <div class="container">
         <section class="row" id="footer">
